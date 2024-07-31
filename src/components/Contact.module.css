@@ -1,0 +1,37 @@
+.button {
+    border-radius: 6px; /* Slightly reduce border-radius for a smaller look */
+    border: 1px solid transparent;
+    padding: 0.4em 0.8em; /* Decrease padding to make the button smaller */
+    font-size: 0.7em; /* Reduce font size for a smaller button */
+    font-weight: 400;
+    background-color: #1a1a1a;
+    color: white; /* Ensure the text is visible against the background */
+    cursor: pointer;
+    transition: border-color 0.25s;
+    margin: 3px; /* Adjust margin if needed */
+}
+
+/* Optional: Add hover and active states */
+.button:hover {
+    border-color: #333; /* Example border color on hover */
+    background-color: #333; /* Example background color on hover */
+}
+
+.button:active {
+    background-color: #555; /* Example background color when button is pressed */
+}
+
+input{
+    text-align: center;
+}
+
+.deleteButton:hover{
+    background-color: red;
+    border-color: red;
+}
+
+.saveButton:hover{
+    background-color: green;
+    border-color: green;
+
+}

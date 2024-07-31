@@ -11,12 +11,7 @@
   will-change: filter;
   transition: filter 300ms;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
+
 
 @keyframes logo-spin {
   from {
@@ -39,4 +34,37 @@
 
 .read-the-docs {
   color: #888;
+}
+
+
+form.create-contact input,
+form.create-contact textarea {
+  width: 50%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1em;
+  resize: none;
+  margin: 5px;
+  text-align: center;
+  background-color: lightgray;
+  border-radius: 10px;
+  
+
+  /*
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+  margin: 10px;
+  text-align: center;
+  
+  */
+}
+
+form.create-contact button{
+  display:block;
+  margin: 10px auto;
+  width: 50%;
 }
