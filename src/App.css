@@ -41,7 +41,7 @@ form.create-contact input,
 form.create-contact textarea {
   width: 50%;
   border: none;
-  padding: 4px;
+  padding: 0.7rem;
   outline: none;
   font-size: 1em;
   resize: none;
@@ -49,6 +49,7 @@ form.create-contact textarea {
   text-align: center;
   background-color: lightgray;
   border-radius: 10px;
+
   
 
   /*
@@ -69,11 +70,13 @@ form.create-contact button{
   width: 50%;
   border: black solid;
   
+  
 }
 
 form.create-contact button:hover{
   font-weight:bold;
   color:white;
+  
 
 }
 
