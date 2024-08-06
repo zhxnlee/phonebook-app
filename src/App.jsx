@@ -10,9 +10,9 @@ import Navigation from './components/Navigation'
 function App() {
 
   const router = createBrowserRouter([
-    {path: '/', element: <Root/>, children:[
+    {path: '/phonebook-app/', element: <Root/>, children:[
       {path: '/phonebook-app/contact-listings', element: <ContactListings/>},
-      {path: '/phonebook-app', element: <CreateContacts/>}
+      {path: '/phonebook-app/', element: <CreateContacts/>}
     ]}
   ])
 

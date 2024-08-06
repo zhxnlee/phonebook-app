@@ -4,7 +4,7 @@ import Navigation from '../components/Navigation';
 import {useState} from 'react';
 import classes from './Root.module.css';
 import axrail from '../assets/axrail.png';
-
+import styles from "./Root.module.css"
 
 function Root(){
 
@@ -40,10 +40,11 @@ function Root(){
 
     return(
         <>
-        <img src = {axrail} height = "80px" style={{borderRadius: "25px"}}/>
-        <Navigation/>
-        <Outlet context={{ contacts, addContact, deleteContact, startEditing, saveContact, editingContactId,setContacts }} />
-
+        <div className = {styles.phonebook}>
+            <h1>ZhenXuan's Phonebook!</h1>
+            <Navigation/>
+            <Outlet context={{ contacts, addContact, deleteContact, startEditing, saveContact, editingContactId,setContacts }} />
+        </div>
         </>
 
     )

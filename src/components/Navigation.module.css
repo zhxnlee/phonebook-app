@@ -13,11 +13,14 @@
   display: flex;
   gap: 1rem;
   
+  
 }
 
 .list {
   display: flex;
   gap: 1rem;
+  
+  
 }
 
 .list a {
@@ -25,20 +28,23 @@
   color: var(--color-primary-400);
   padding: 10px;
   border-radius: 15px;
+  border: black solid 0.1rem;
+  
 }
 
 
 .list a.activeCC {
   color: var(--color-primary-800);
   font-weight: bold;
-  background-color:#8c41fe;
+  background-color:black;
   color: white;
+  
 }
 
 .list a.activeCL {
   color: var(--color-primary-800);
   font-weight: bold;
-  background-color:#4687ff;
+  background-color:gray;
   color: white;
 }
 
@@ -46,6 +52,7 @@
   color: var(--color-primary-800);
   font-weight: bold;
   background-color:lightgray;
+  
   
   
 }
