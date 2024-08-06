@@ -9,6 +9,7 @@ function Navigation(){
             <ul className = {classes.list}>
                 <li>
                 <NavLink to = "/phonebook-app"
+                end
                 className ={({isActive}) => isActive ? classes.activeCC : undefined 
             }
                 >Create Contacts</NavLink>
